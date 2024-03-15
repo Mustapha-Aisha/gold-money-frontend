@@ -1,0 +1,129 @@
+* {
+    color: #a3aecc;
+    font-family: 'Open Sans', 'sans-serif';
+    box-sizing: border-box;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0c0f17;
+    line-height: 20px;
+}
+.container {
+    max-width: 950px;
+    margin: 70px auto;
+    background-color: #202838;
+    border-radius: 30px;
+}
+
+.f-card {
+    padding: 120px 40px;
+    width: 50%;
+    border-radius: 30px;
+    background-color: #151b28;
+}
+
+.sign-in_ {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.sing-in_text {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.buttons {
+    background-color: #202838;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.social-media-button{
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.s-card {
+    background-color: #202838;
+}
+.s-card p{
+    text-align: center;
+}
+
+.r {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in-border-wrapper {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.border {
+    width: 50%;
+    height: 1px;
+    background-color: #70778c;
+}
+
+.or-text-block {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.sign-in-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sign-in-input>input {
+    margin-top: 10px;
+    height: 50px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #243048;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #70778c;
+}
+
+.forgot-pass {
+    text-decoration: none;
+    color: #0288cb;
+}
+.sign-in-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 13px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #256eff;
+    font-weight: 700;
+    border: none;
+}
+
+@media screen and (max-width: 992px) {
+    .r{
+        display:block
+    }
+    .f-card{
+        width: 100%;
+    }
+
+    .container{
+        max-width: 700px;
+    }
+    
+   
+}

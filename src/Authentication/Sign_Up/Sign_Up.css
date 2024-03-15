@@ -1,0 +1,32 @@
+.logo{
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content:center;
+    color: #a3aecc;
+}
+
+.logo p{
+    font-size: 25px;
+}
+
+.pic{
+    width: 30%;
+    height: 20%;
+    display: flex;
+    justify-content:center;
+}
+
+
+@media screen and (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }
+    .signup-image{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 70%;
+    }
+}
